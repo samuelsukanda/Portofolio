@@ -1,52 +1,46 @@
 <!doctype html>
 <html lang="id">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
-    <title>Samuel Sukanda - Web Developer di Subang | Laravel, React, TypeScript</title>
-    <meta
-      name="description"
-      content="Samuel Sukanda, Web Developer dari Subang, Indonesia. Jasa pembuatan website, backend, dan frontend development dengan Laravel, React, dan TypeScript. Lihat portofolio proyek dan hubungi saya."
-    />
-    <meta name="author" content="Samuel Sukanda" />
-    <meta name="robots" content="index, follow, max-image-preview:large" />
-    <meta name="geo.region" content="ID-JB" />
-    <meta name="geo.placename" content="Subang, Jawa Barat, Indonesia" />
-    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f7f4" />
-    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0c0c10" />
-    <meta name="color-scheme" content="dark light" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
-    <link rel="canonical" href="https://rakapradana.dev/" />
-    <link rel="preload" as="image" href="/images/hero.svg" fetchpriority="high" />
+  <title>Samuel Sukanda - Web Developer | Laravel, React, TypeScript</title>
+  <meta name="description"
+    content="Samuel Sukanda, Web Developer dari Subang, Indonesia. Jasa pembuatan website, backend, dan frontend development dengan Laravel, React, dan TypeScript. Lihat portofolio proyek dan hubungi saya." />
+  <meta name="author" content="Samuel Sukanda" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="geo.region" content="ID-JB" />
+  <meta name="geo.placename" content="Subang, Jawa Barat, Indonesia" />
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f7f4" />
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0c0c10" />
+  <meta name="color-scheme" content="dark light" />
 
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Samuel Sukanda" />
-    <meta property="og:title" content="Samuel Sukanda - Web Developer di Subang" />
-    <meta
-      property="og:description"
-      content="Membangun website dan aplikasi web yang modern, cepat, dan andal dengan Laravel, React, dan TypeScript."
-    />
-    <meta property="og:url" content="https://rakapradana.dev/" />
-    <meta property="og:locale" content="id_ID" />
-    <meta property="og:locale:alternate" content="en_US" />
-    <meta property="og:image" content="https://rakapradana.dev/og.png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Samuel Sukanda - Web Developer" />
-    <meta property="og:image:type" content="image/png" />
+  <link rel="canonical" href="https://rakapradana.dev/" />
+  <link rel="preload" as="image" href="/images/hero.svg" fetchpriority="high" />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Samuel Sukanda - Web Developer di Subang" />
-    <meta
-      name="twitter:description"
-      content="Membangun website dan aplikasi web yang modern, cepat, dan andal."
-    />
-    <meta name="twitter:image" content="https://rakapradana.dev/og.png" />
-    <meta name="twitter:url" content="https://rakapradana.dev/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Samuel Sukanda" />
+  <meta property="og:title" content="Samuel Sukanda - Web Developer" />
+  <meta property="og:description"
+    content="Membangun website dan aplikasi web yang modern, cepat, dan andal dengan Laravel, React, dan TypeScript." />
+  <meta property="og:url" content="https://rakapradana.dev/" />
+  <meta property="og:locale" content="id_ID" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:image" content="https://rakapradana.dev/og.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Samuel Sukanda - Web Developer" />
+  <meta property="og:image:type" content="image/png" />
 
-    <script type="application/ld+json" id="seo-jsonld">
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Samuel Sukanda - Web Developer" />
+  <meta name="twitter:description" content="Membangun website dan aplikasi web yang modern, cepat, dan andal." />
+  <meta name="twitter:image" content="https://rakapradana.dev/og.png" />
+  <meta name="twitter:url" content="https://rakapradana.dev/" />
+
+  <script type="application/ld+json" id="seo-jsonld">
       {
         "@context": "https://schema.org",
         "@graph": [
@@ -191,18 +185,20 @@
       }
     </script>
 
-    <script>
-      ;(function () {
-        var stored = localStorage.getItem('theme')
-        var dark =
-          stored === 'dark' ||
-          (!stored && window.matchMedia('(prefers-color-scheme: dark)').matches)
-        document.documentElement.classList.toggle('dark', dark)
-      })()
-    </script>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+  <script>
+    ; (function () {
+      var stored = localStorage.getItem('theme')
+      var dark =
+        stored === 'dark' ||
+        (!stored && window.matchMedia('(prefers-color-scheme: dark)').matches)
+      document.documentElement.classList.toggle('dark', dark)
+    })()
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
 </html>
